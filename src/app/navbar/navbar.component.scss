@@ -1,0 +1,41 @@
+$primary-color: #9555;
+
+
+
+//Fonts
+$font-family-sans-serif: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$font-family-body: $font-family-sans-serif;
+$font-family-heading: $font-family-sans-serif;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$backgroundcol: rgb(2,0,36);
+$grad: linear-gradient(90deg, rgba(10,10,100,1) 0%, rgba(31,31,196,1) 35%, rgba(0,212,255,1) 100%);
+//$secondary-font: verdana, verdana;
+
+$primary-font: sans-serif;
+
+
+nav {
+
+    display: flex;
+    text-align: center;
+    float:right;
+    background: $backgroundcol;
+    background-image: $grad;
+    width:100%;
+    justify-content: space-around;
+    a {
+        position: relative;
+        display: inline-block;
+        margin:30px;
+        //padding:100px;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: $primary-font;
+        color: red;
+    }
+}

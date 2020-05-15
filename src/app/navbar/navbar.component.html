@@ -1,10 +1,13 @@
-<nav
-*ngFor="let item of navOptions"
->
-<a
-[routerLink]="item.route">
-{{item.title}}
-</a>
+
+    <nav
+    class="nav"
+    >
+    <a
+    *ngFor="let item of navOptions"
+    [routerLink]="item.route">
+    {{item.title}}
+    </a>
 
 
-</nav>
+    </nav>
+
