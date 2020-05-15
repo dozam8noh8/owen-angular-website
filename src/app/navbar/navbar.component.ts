@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 
 export interface navType {
-  title: string, 
+  title: string,
   route: string,
   }
 @Component({
@@ -14,7 +14,9 @@ export interface navType {
 export class NavbarComponent implements OnInit {
   navOptions: navType[] = [
     {title: "Home", route: ''},
+    {title: "Games", route: 'games'},
     {title: "About Me", route: 'aboutme'},
+
   ]
   constructor() { }
 
